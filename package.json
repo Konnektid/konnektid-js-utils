@@ -1,11 +1,11 @@
 {
-  "name": "js-module-boilerplate",
-  "description": "Opinionated javascript template to build module in javascript and module",
+  "name": "konnektid-js-utils",
+  "description": "Several javascript utilities used throughout Konnektid",
   "main": "dist/index.js",
   "author": "Simone Potenza",
   "version": "0.0.1",
   "bugs": {
-    "url": "http://github.com/konnektid/js-module-boilerplate"
+    "url": "https://github.com/Konnektid/konnektid-js-utils"
   },
   "scripts": {
     "eslint": "eslint src",
@@ -17,10 +17,10 @@
   },
   "private": true,
   "dependencies": {
-    "babel-preset-konnektid": "github:konnektid/babel-preset-konnektid",
-    "longjohn": "^0.2.9"
+    "babel-preset-konnektid": "github:konnektid/babel-preset-konnektid"
   },
   "devDependencies": {
+    "longjohn": "^0.2.9",
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-istanbul": "^0.11.0",
