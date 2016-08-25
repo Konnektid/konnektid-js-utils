@@ -14,5 +14,5 @@ export default email => {
 
     // let's make sure all the parts in the domain are not empty
     splits = splits[1].split(".");
-    return splits.reduce((res, split) => res && split.length > 0, true);
+    return splits.every(split => split.length > 0);
 };
