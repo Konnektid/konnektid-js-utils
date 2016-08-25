@@ -8,6 +8,7 @@
     "url": "https://github.com/Konnektid/konnektid-js-utils"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "eslint": "eslint src",
     "build": "babel src --out-dir dist --ignore $npm_package_config_buildignore --source-maps --copy-files",
     "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --timeout 10000 --recursive $(find src -name __test__ -not -path '*/node_modules/*')"
