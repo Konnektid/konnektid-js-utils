@@ -1,3 +1,7 @@
-# javascript/node module boilerplate
+# Javascript utilities we use at Konnektid
 
-Opinionated javascript template to build module in javascript and module. This boilerplate is used internally at Konnektid in its own code.
+Opinionated javascript utilities used at Konnektid.
+
+They include functional utilities, validation utilities and more.
+
+The goals of this project is to enhance reusability, promote functional programming and simplicity. 
