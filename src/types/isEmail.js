@@ -12,12 +12,7 @@ export default email => {
     if (splits[1].length === 0) return false;
     if (splits[splits.length - 1].length === 0) return false;
 
+    // let's make sure all the parts in the domain are not empty
     splits = splits[1].split(".");
-
-    if (splits.length < 2) return false;
-    if (splits[0].length === 0) return false;
-    if (splits[1].length === 0) return false;
-    if (splits[splits.length - 1].length === 0) return false;
-
-    return true;
+    return splits.reduce((res, split) => res && split.length > 0, true);
 };
