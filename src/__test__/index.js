@@ -5,9 +5,10 @@
  * from the command `npm run test`.
  */
 import { expect } from "chai";
+import * as utils from "../index";
 
-describe("test", () => {
-    it("should pass", () => {
-        expect(true).to.be.equal(true);
+describe("utils", () => {
+    it("should export property types", () => {
+        expect(utils).to.have.property("types");
     });
 });
