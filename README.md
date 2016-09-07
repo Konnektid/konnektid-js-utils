@@ -6,6 +6,19 @@ They include functional utilities, validation utilities and more.
 
 The goals of this project is to enhance reusability, promote functional programming and simplicity.
 
+## Utils
+Generic purpose utilities
+
+### slugify
+```
+import { slugify } from "konnektid-js-utils";
+
+// or
+
+import slugify from "konnektid-js-utils/dist/slugify";
+```
+
+It converts strings to slugs that can be use in urls.
 
 ## Types
 
