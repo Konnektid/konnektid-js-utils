@@ -11,7 +11,8 @@
     "postinstall": "npm run build",
     "eslint": "eslint src",
     "build": "babel src --out-dir dist --ignore $npm_package_config_buildignore --source-maps --copy-files",
-    "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --timeout 10000 --recursive $(find src -name __test__ -not -path '*/node_modules/*')"
+    "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --timeout 10000 --recursive $(find src -name __test__ -not -path '*/node_modules/*')", 
+    "release": "standard-version"
   },
   "config": {
     "buildignore": "__test__"
@@ -21,7 +22,6 @@
     "babel-preset-konnektid": "github:konnektid/babel-preset-konnektid"
   },
   "devDependencies": {
-    "longjohn": "^0.2.9",
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-istanbul": "^0.11.0",
@@ -30,6 +30,8 @@
     "eslint-config-konnektid": "github:konnektid/eslint-config-konnektid",
     "eslint-plugin-babel": "^3.3.0",
     "istanbul": "^0.3.19",
-    "mocha": "^2.5.3"
+    "longjohn": "^0.2.9",
+    "mocha": "^2.5.3",
+    "standard-version": "^2.4.0"
   }
 }
