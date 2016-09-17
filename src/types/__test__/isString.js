@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import isString from "../isString";
 
-describe.only("isEmail", () => {
+describe("isEmail", () => {
     context("the value is undefined", () => {
         it("should return false", () => {
             expect(isString(undefined)).to.be.equal(false);
