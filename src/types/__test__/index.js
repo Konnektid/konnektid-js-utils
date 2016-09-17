@@ -5,4 +5,10 @@ describe("types", () => {
     it("should export isEmail", () => {
         expect(types).to.respondTo("isEmail");
     });
+    it("should export isGiven", () => {
+        expect(types).to.respondTo("isGiven");
+    });
+    it("should export isString", () => {
+        expect(types).to.respondTo("isString");
+    });
 });
