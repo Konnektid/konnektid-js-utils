@@ -24,8 +24,11 @@ It converts strings to slugs that can be use in urls.
 
 These utilities functions are used to check if values are of a certain types.
 
+### isGiven(value: any): Boolean
+Returns true id the value is given. A not given value is undefined, null or empty string.
+
 ### isString(value: any): Boolean
-Returns true if the value is a string
+Returns true if the value is a string.
 
 ### isEmail(value: String): Boolean
-Returns true if the value is valid email string
+Returns true if the value is valid email string.
