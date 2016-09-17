@@ -3,7 +3,7 @@
   "description": "Several javascript utilities used throughout Konnektid",
   "main": "dist/index.js",
   "author": "Simone Potenza",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "bugs": {
     "url": "https://github.com/Konnektid/konnektid-js-utils"
   },
@@ -11,7 +11,7 @@
     "postinstall": "npm run build",
     "eslint": "eslint src",
     "build": "babel src --out-dir dist --ignore $npm_package_config_buildignore --source-maps --copy-files",
-    "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --timeout 10000 --recursive $(find src -name __test__ -not -path '*/node_modules/*')", 
+    "test": "babel-node node_modules/.bin/babel-istanbul cover --root src/ --include-all-sources _mocha -- --timeout 10000 --recursive $(find src -name __test__ -not -path '*/node_modules/*')",
     "release": "standard-version"
   },
   "config": {
