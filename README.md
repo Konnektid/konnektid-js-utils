@@ -24,5 +24,8 @@ It converts strings to slugs that can be use in urls.
 
 These utilities functions are used to check if values are of a certain types.
 
-### isEmail(value: String)
+### isString(value: any): Boolean
+Returns true if the value is a string
+
+### isEmail(value: String): Boolean
 Returns true if the value is valid email string
