@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/Konnektid/konnektid-js-utils/compare/v0.1.0...v0.1.1) (2016-09-17)
+
+
+### Bug Fixes
+
+* fix exports of types form module ([c24d48d](https://github.com/Konnektid/konnektid-js-utils/commit/c24d48d))
+* fix exports of types form module (#11) ([21f4ad4](https://github.com/Konnektid/konnektid-js-utils/commit/21f4ad4)), closes [#11](https://github.com/Konnektid/konnektid-js-utils/issues/11)
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/Konnektid/konnektid-js-utils/compare/v0.0.2...v0.1.0) (2016-09-17)
 
