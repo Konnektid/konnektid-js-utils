@@ -5,6 +5,9 @@ describe("utils", () => {
     it("should export property types", () => {
         expect(utils).to.have.property("types");
     });
+    it("should export property draftjs", () => {
+        expect(utils).to.have.property("draftjs");
+    });
     it("should export isString", () => {
         expect(utils).to.respondTo("isString");
     });
