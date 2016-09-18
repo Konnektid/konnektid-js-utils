@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/Konnektid/konnektid-js-utils/compare/v0.1.1...v0.2.0) (2016-09-18)
+
+
+### Features
+
+* **draft-js:** add some draft-js utilities (#12) ([8897786](https://github.com/Konnektid/konnektid-js-utils/commit/8897786))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/Konnektid/konnektid-js-utils/compare/v0.1.0...v0.1.1) (2016-09-17)
 
