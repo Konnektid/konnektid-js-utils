@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/Konnektid/konnektid-js-utils/compare/v0.2.0...v0.3.0) (2016-10-26)
+
+
+### Bug Fixes
+
+* **deps:** fix babel-cli dependency to build module (#16) ([cb85eab](https://github.com/Konnektid/konnektid-js-utils/commit/cb85eab)), closes [#16](https://github.com/Konnektid/konnektid-js-utils/issues/16)
+
+
+### Features
+
+* **types:** add isSlug function to check a value is a correct slug (#15) ([d3b40b6](https://github.com/Konnektid/konnektid-js-utils/commit/d3b40b6))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/Konnektid/konnektid-js-utils/compare/v0.1.1...v0.2.0) (2016-09-18)
 
