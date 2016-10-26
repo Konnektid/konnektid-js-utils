@@ -1,7 +1,8 @@
 export {
     isGiven,
     isEmail,
-    isString
+    isString,
+    isSlug
 } from "./types";
 export * as types from "./types";
 export * as draftjs from "./draftjs";
