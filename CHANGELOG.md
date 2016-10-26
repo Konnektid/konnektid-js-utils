@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/Konnektid/konnektid-js-utils/compare/v0.3.0...v0.3.1) (2016-10-26)
+
+
+### Bug Fixes
+
+* **isSlug:** fix error exporting the function ([26c5ce4](https://github.com/Konnektid/konnektid-js-utils/commit/26c5ce4))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/Konnektid/konnektid-js-utils/compare/v0.2.0...v0.3.0) (2016-10-26)
 
