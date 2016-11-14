@@ -2,8 +2,9 @@ export {
     isBoolean,
     isGiven,
     isEmail,
-    isString,
-    isSlug
+    isPrice,
+    isSlug,
+    isString
 } from "./types";
 export * as types from "./types";
 export * as draftjs from "./draftjs";
