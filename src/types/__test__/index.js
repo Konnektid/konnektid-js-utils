@@ -14,4 +14,7 @@ describe("types", () => {
     it("should export isSlug", () => {
         expect(types).to.respondTo("isSlug");
     });
+    it("should export isBoolean", () => {
+        expect(types).to.respondTo("isBoolean");
+    });
 });

@@ -1,40 +1,41 @@
 import { expect } from "chai";
-import isString from "../isString";
+import isBoolean from "../isBoolean";
 
-describe("isString", () => {
+describe("isBoolean", () => {
     context("the value is undefined", () => {
         it("should return false", () => {
-            expect(isString(undefined)).to.be.equal(false);
+            expect(isBoolean(undefined)).to.be.equal(false);
         });
     });
     context("the value is null", () => {
         it("should return false", () => {
-            expect(isString(null)).to.be.equal(false);
+            expect(isBoolean(null)).to.be.equal(false);
         });
     });
     context("the value is an object", () => {
         it("should return false", () => {
-            expect(isString({})).to.be.equal(false);
+            expect(isBoolean({})).to.be.equal(false);
         });
     });
     context("the value is an array", () => {
         it("should return false", () => {
-            expect(isString([])).to.be.equal(false);
-        });
-    });
-    context("the value is a boolean", () => {
-        it("should return false", () => {
-            expect(isString(false)).to.be.equal(false);
+            expect(isBoolean([])).to.be.equal(false);
         });
     });
     context("the value is a number", () => {
         it("should return false", () => {
-            expect(isString(3)).to.be.equal(false);
+            expect(isBoolean(3)).to.be.equal(false);
         });
     });
     context("the value is a string", () => {
+        it("should return false", () => {
+            expect(isBoolean("")).to.be.equal(false);
+        });
+    });
+    context("the value is a boolean", () => {
         it("should return true", () => {
-            expect(isString("")).to.be.equal(true);
+            expect(isBoolean(false)).to.be.equal(true);
+            expect(isBoolean(true)).to.be.equal(true);
         });
     });
 });
