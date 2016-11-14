@@ -11,6 +11,9 @@ describe("utils", () => {
     it("should export isString", () => {
         expect(utils).to.respondTo("isString");
     });
+    it("should export isGeoPoint", () => {
+        expect(utils).to.respondTo("isGeoPoint");
+    });
     it("should export isGiven", () => {
         expect(utils).to.respondTo("isGiven");
     });

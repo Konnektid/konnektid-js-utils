@@ -1,5 +1,6 @@
 export {
     isBoolean,
+    isGeoPoint,
     isGiven,
     isEmail,
     isPrice,
