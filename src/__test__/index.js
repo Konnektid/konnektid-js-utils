@@ -20,6 +20,9 @@ describe("utils", () => {
     it("should export isSlug", () => {
         expect(utils).to.respondTo("isSlug");
     });
+    it("should export isPrice", () => {
+        expect(utils).to.respondTo("isPrice");
+    });
     it("should export isBoolean", () => {
         expect(utils).to.respondTo("isBoolean");
     });
