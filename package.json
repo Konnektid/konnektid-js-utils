@@ -3,7 +3,7 @@
   "description": "Several javascript utilities used throughout Konnektid",
   "main": "dist/index.js",
   "author": "Simone Potenza",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "bugs": {
     "url": "https://github.com/Konnektid/konnektid-js-utils"
   },
