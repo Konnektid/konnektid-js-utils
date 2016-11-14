@@ -5,6 +5,9 @@ describe("types", () => {
     it("should export isEmail", () => {
         expect(types).to.respondTo("isEmail");
     });
+    it("should export isGeoPoint", () => {
+        expect(types).to.respondTo("isGeoPoint");
+    });
     it("should export isGiven", () => {
         expect(types).to.respondTo("isGiven");
     });
