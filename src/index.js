@@ -1,4 +1,5 @@
 export {
+    isBoolean,
     isGiven,
     isEmail,
     isString,
