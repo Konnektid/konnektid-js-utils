@@ -3,6 +3,7 @@ export {
     isGeoPoint,
     isGiven,
     isEmail,
+    isPhoneNumber,
     isPrice,
     isSlug,
     isString
