@@ -37,11 +37,6 @@ describe("isPhoneNumber", () => {
             expect(isPhoneNumber(0)).to.be.equal(false);
         });
     });
-    context("the value starts with a plus", () => {
-        it("should return false", () => {
-            expect(isPhoneNumber("+131")).to.be.equal(false);
-        });
-    });
     context("the value contains spaces", () => {
         it("should return false", () => {
             expect(isPhoneNumber("13 123")).to.be.equal(false);
@@ -63,6 +58,7 @@ describe("isPhoneNumber", () => {
         it("should return false", () => {
             expect(isPhoneNumber("123_123")).to.be.equal(false);
             expect(isPhoneNumber("test%123")).to.be.equal(false);
+            expect(isPhoneNumber("-123")).to.be.equal(false);
         });
     });
     context("the value is correct", () => {
