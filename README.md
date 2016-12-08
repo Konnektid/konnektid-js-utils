@@ -33,6 +33,9 @@ Returns true if the value is a string.
 ### isEmail(value: String): Boolean
 Returns true if the value is valid email string.
 
+### isPhoneNumber(value: String): Boolean
+Returns true if the value is valid phone number.
+
 ### isBoolean(value: any): Boolean
 Returns true if the value is a boolean.
 

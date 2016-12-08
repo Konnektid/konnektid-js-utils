@@ -20,6 +20,9 @@ describe("utils", () => {
     it("should export isEmail", () => {
         expect(utils).to.respondTo("isEmail");
     });
+    it("should export isPhoneNumber", () => {
+        expect(utils).to.respondTo("isPhoneNumber");
+    });
     it("should export isSlug", () => {
         expect(utils).to.respondTo("isSlug");
     });
